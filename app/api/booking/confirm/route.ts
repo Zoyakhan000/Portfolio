@@ -40,12 +40,12 @@ export async function POST(req: NextRequest) {
     const event: ics.EventAttributes = {
       start: [dateParts[0] || 2026, dateParts[1] || 8, dateParts[2] || 1, hour, minute],
       duration: { minutes: durationMinutes },
-      title: `${service || 'Consultation Call'} - Rizwan Saeed Agency`,
+      title: `${service || 'Consultation Call'} - Fiza Rafi Agency`,
       description: `Client: ${clientName}\nCompany: ${company || 'N/A'}\nPhone: ${phone || 'N/A'}\nNotes: ${notes || 'N/A'}\nService: ${service || 'Strategy Call'}`,
       location: 'Google Meet / Video Conference (Link will be sent prior to call)',
       status: 'CONFIRMED',
       busyStatus: 'BUSY',
-      organizer: { name: 'Rizwan Saeed Agency', email: process.env.SMTP_FROM || 'bookings@agency.com' },
+      organizer: { name: 'Fiza Rafi Agency', email: process.env.SMTP_FROM || 'bookings@agency.com' },
       attendees: email ? [{ name: clientName, email, rsvp: true }] : undefined,
     };
 
@@ -69,7 +69,7 @@ export async function POST(req: NextRequest) {
       .toISOString()
       .replace(/-|:|\.\d\d\d/g, '');
 
-    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`${service || 'Strategy Call'} - Rizwan Saeed`)}&dates=${startIso}/${endIso}&details=${encodeURIComponent(`Client: ${clientName}\nNotes: ${notes || ''}`)}&location=${encodeURIComponent('Online Meeting')}`;
+    const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`${service || 'Strategy Call'} - Fiza Rafi`)}&dates=${startIso}/${endIso}&details=${encodeURIComponent(`Client: ${clientName}\nNotes: ${notes || ''}`)}&location=${encodeURIComponent('Online Meeting')}`;
 
     // Email Sending via Nodemailer
     let emailSent = false;
@@ -100,14 +100,14 @@ export async function POST(req: NextRequest) {
         ] : [];
 
         await transporter.sendMail({
-          from: process.env.SMTP_FROM || `"Rizwan Saeed Agency" <${smtpUser}>`,
+          from: process.env.SMTP_FROM || `"Fiza Rafi Agency" <${smtpUser}>`,
           to: email,
           subject: `Confirmed: ${service || 'Consultation Session'} on ${date} at ${time}`,
           html: `
             <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto; background: #15120E; color: #F9F7F2; padding: 24px; border-radius: 16px; border: 1px solid #2C2419;">
               <h2 style="color: #E59500; margin-top: 0;">Appointment Confirmed!</h2>
               <p>Dear <strong>${clientName}</strong>,</p>
-              <p>Thank you for scheduling a session with Rizwan Saeed Agency. We have reserved your time slot:</p>
+              <p>Thank you for scheduling a session with Fiza Rafi Agency. We have reserved your time slot:</p>
               
               <div style="background: #1C1712; padding: 16px; border-radius: 12px; margin: 20px 0; border: 1px solid #2C2419;">
                 <p style="margin: 4px 0;"><strong>Service:</strong> ${service || 'Strategy Call'}</p>
@@ -123,7 +123,7 @@ export async function POST(req: NextRequest) {
               </div>
 
               <hr style="border: none; border-top: 1px solid #2C2419; margin: 24px 0;" />
-              <p style="font-size: 12px; color: #A69D92;">Rizwan Saeed Agency • High Performance Digital Solutions</p>
+              <p style="font-size: 12px; color: #A69D92;">Fiza Rafi Agency • High Performance Digital Solutions</p>
             </div>
           `,
           attachments,

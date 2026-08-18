@@ -36,7 +36,7 @@ const DEFAULT_BLOGS: BlogPost[] = [
     category: "UI Design",
     title: "The Magic Behind Clean Interfaces: Secrets of Negative Space",
     date: "15 June 2026",
-    author: "Rizwan Saeed",
+    author: "Fiza Rafi",
     description: "Explore the delicate balance of empty space, margins, and layout rhythm to create modern, clean, and highly legible interfaces.",
   },
   {
@@ -45,7 +45,7 @@ const DEFAULT_BLOGS: BlogPost[] = [
     category: "Process",
     title: "From Concept to Clicks: The Art of Responsive Web Design",
     date: "02 June 2026",
-    author: "Rizwan Saeed",
+    author: "Fiza Rafi",
     description: "How to craft beautiful, fluid-grid layout containers and typography that adapt flawlessly to any screen size.",
   },
   {
@@ -54,7 +54,7 @@ const DEFAULT_BLOGS: BlogPost[] = [
     category: "Technology",
     title: "The Art of Building Apps That Truly Connect with Users",
     date: "28 May 2026",
-    author: "Rizwan Saeed",
+    author: "Fiza Rafi",
     description: "Deep dive into aesthetic usability, fluid micro-interactions, and visual feedback that keep users engaged.",
   },
 ];
@@ -128,7 +128,7 @@ export default function BlogDirectoryPage() {
               R
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-              Rizwan<span className="text-[#E59500]">.</span>
+              Fiza<span className="text-[#E59500]">.</span>
             </span>
           </div>
 
@@ -305,7 +305,7 @@ export default function BlogDirectoryPage() {
                   R
                 </div>
                 <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-                  Rizwan<span className="text-[#E59500]">.</span>
+                  Fiza<span className="text-[#E59500]">.</span>
                 </span>
               </div>
               <p className="text-xs text-[#6B6053] leading-relaxed max-w-xs">
@@ -315,12 +315,12 @@ export default function BlogDirectoryPage() {
 
             <div className="md:col-span-6 flex flex-col items-start md:items-end justify-between gap-4">
               <div className="flex items-center gap-3">
-                <a href="https://instagram.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
-                <a href="https://www.linkedin.com/in/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
-                <a href="https://x.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
-                <a href="https://github.com/Rizwansaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
+                <a href="https://instagram.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
+                <a href="https://www.linkedin.com/in/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
+                <a href="https://x.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
+                <a href="https://github.com/Fizasaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
               </div>
-              <p className="text-xs text-[#6B6053]">© 2026 Rizwan Saeed. All rights reserved.</p>
+              <p className="text-xs text-[#6B6053]">© 2026 Fiza Rafi. All rights reserved.</p>
             </div>
 
           </div>

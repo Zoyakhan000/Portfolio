@@ -34,9 +34,9 @@ export default function ContactPage() {
   const downloadIcsFile = () => {
     const content =
       icsContent ||
-      `BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Rizwan Saeed Agency//EN\nBEGIN:VEVENT\nSUMMARY:${
+      `BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//Fiza Rafi Agency//EN\nBEGIN:VEVENT\nSUMMARY:${
         submittedBooking?.service || 'Consultation Call'
-      } - Rizwan Saeed\nDESCRIPTION:Client: ${
+      } - Fiza Rafi\nDESCRIPTION:Client: ${
         submittedBooking?.clientName
       }\nSTATUS:CONFIRMED\nEND:VEVENT\nEND:VCALENDAR`;
     const blob = new Blob([content], { type: 'text/calendar;charset=utf-8;' });
@@ -49,7 +49,7 @@ export default function ContactPage() {
     document.body.removeChild(a);
   };
 
-  const [whatsappConfig, setWhatsappConfig] = useState<any>({ number: "", enableWhatsapp: true, enableForm: true, message: "Hi Rizwan, I would like to book an appointment on {date} at {time} for {service}." });
+  const [whatsappConfig, setWhatsappConfig] = useState<any>({ number: "", enableWhatsapp: true, enableForm: true, message: "Hi Fiza, I would like to book an appointment on {date} at {time} for {service}." });
   const [formFields, setFormFields] = useState<any[]>([
     { id: 'name', type: 'text', label: 'Full Name *', placeholder: 'John Doe', required: true, icon: 'User', width: 'half' },
     { id: 'email', type: 'email', label: 'Work Email *', placeholder: 'john@company.com', required: true, icon: 'Mail', width: 'half' },
@@ -164,7 +164,7 @@ export default function ContactPage() {
     saveNewBookingToStorage(newBooking);
 
     // Build message
-    const template = whatsappConfig.message || "Hi Rizwan, I would like to book an appointment on {date} at {time} for {service}.";
+    const template = whatsappConfig.message || "Hi Fiza, I would like to book an appointment on {date} at {time} for {service}.";
     const message = template
       .replace(/{date}/g, dateStr)
       .replace(/{time}/g, selectedTime)
@@ -310,7 +310,7 @@ export default function ContactPage() {
                 href={
                   gcalUrl ||
                   `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
-                    `${submittedBooking.service || 'Strategy Call'} - Rizwan Saeed`
+                    `${submittedBooking.service || 'Strategy Call'} - Fiza Rafi`
                   )}&details=${encodeURIComponent(`Client: ${submittedBooking.clientName}`)}`
                 }
                 target="_blank"
@@ -364,7 +364,7 @@ export default function ContactPage() {
                 <div className="inline-block px-3 py-1 bg-[#15120E]/10 rounded-full text-[10px] font-mono font-bold tracking-widest uppercase mb-4">
                   Interactive Calendar
                 </div>
-                <h2 className="text-2xl font-black tracking-tight uppercase mb-1">Rizwan Saeed</h2>
+                <h2 className="text-2xl font-black tracking-tight uppercase mb-1">Fiza Rafi</h2>
                 <p className="text-xs font-semibold uppercase tracking-wider opacity-80 mb-6">Strategic Growth Consultant</p>
 
                 <div className="space-y-3">

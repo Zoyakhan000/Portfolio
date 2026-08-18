@@ -36,8 +36,8 @@ const DEFAULT_CUSTOM_PAGES: CustomPage[] = [
     id: "1",
     title: "Our Philosophy",
     slug: "philosophy",
-    seoTitle: "Our Design & Performance Philosophy | Rizwan Saeed",
-    seoDescription: "Explore our principles on deep simplicity, absolute craftsmanship, visual rhythm, and modern tech integration by Rizwan Saeed.",
+    seoTitle: "Our Design & Performance Philosophy | Fiza Rafi",
+    seoDescription: "Explore our principles on deep simplicity, absolute craftsmanship, visual rhythm, and modern tech integration by Fiza Rafi.",
     content: `## Behind Our Work
 
 We believe in deep simplicity, absolute craftsmanship, and design that stands the test of time.
@@ -53,8 +53,8 @@ Feel free to explore our services or get in touch for custom inquiries!`
     id: "2",
     title: "FAQ & Pricing Details",
     slug: "faq-pricing",
-    seoTitle: "FAQ & Custom Retainer Pricing | Rizwan Saeed",
-    seoDescription: "In-depth details on design retainers, Shopify development specs, and e-commerce growth consulting rates with Rizwan Saeed.",
+    seoTitle: "FAQ & Custom Retainer Pricing | Fiza Rafi",
+    seoDescription: "In-depth details on design retainers, Shopify development specs, and e-commerce growth consulting rates with Fiza Rafi.",
     content: `## FAQ & Custom Pricing
 
 If you have questions about custom design retainer services or single project specifications, see below.
@@ -69,8 +69,8 @@ Contact us directly to lock in pricing for 2026.`
     id: "3",
     title: "Services Detail",
     slug: "services-detail",
-    seoTitle: "Digital Marketing & Shopify Development Services | Rizwan Saeed",
-    seoDescription: "Explore custom product design work, visual aesthetics, typography pairing strategy, responsive layout audits, and user testing frameworks by Rizwan Saeed.",
+    seoTitle: "Digital Marketing & Shopify Development Services | Fiza Rafi",
+    seoDescription: "Explore custom product design work, visual aesthetics, typography pairing strategy, responsive layout audits, and user testing frameworks by Fiza Rafi.",
     content: `## Comprehensive Growth & Development Services
 
 We help ambitious brands scale rapidly across UAE, Pakistan, and global markets with performance marketing and custom Shopify solutions.
@@ -83,10 +83,10 @@ We help ambitious brands scale rapidly across UAE, Pakistan, and global markets 
   },
   {
     id: "4",
-    title: "About Rizwan Saeed",
+    title: "About Fiza Rafi",
     slug: "about-story",
-    seoTitle: "About Rizwan Saeed | Digital Marketing Manager & Shopify Developer",
-    seoDescription: "Learn about Rizwan Saeed's journey, experience scaling AED 1.2M+ in revenue across 100+ projects in UAE & Pakistan.",
+    seoTitle: "About Fiza Rafi | Digital Marketing Manager & Shopify Developer",
+    seoDescription: "Learn about Fiza Rafi's journey, experience scaling AED 1.2M+ in revenue across 100+ projects in UAE & Pakistan.",
     content: `## My Journey & Approach
 
 With over 5 years of hands-on experience in performance marketing, technical SEO, and e-commerce development, I help businesses transform traffic into scalable revenue.
@@ -100,7 +100,7 @@ With over 5 years of hands-on experience in performance marketing, technical SEO
     id: "5",
     title: "Privacy Policy",
     slug: "privacy-policy",
-    seoTitle: "Privacy Policy | Rizwan Saeed",
+    seoTitle: "Privacy Policy | Fiza Rafi",
     seoDescription: "Privacy policy for rizwansaddique.site detailing data collection, usage, contact form privacy, and user security.",
     content: `## Privacy Policy
 
@@ -115,8 +115,8 @@ Your privacy is paramount. This policy details how personal information collecte
     id: "6",
     title: "Terms of Service",
     slug: "terms-of-service",
-    seoTitle: "Terms of Service | Rizwan Saeed",
-    seoDescription: "Terms of service and engagement guidelines for digital marketing and Shopify development services by Rizwan Saeed.",
+    seoTitle: "Terms of Service | Fiza Rafi",
+    seoDescription: "Terms of service and engagement guidelines for digital marketing and Shopify development services by Fiza Rafi.",
     content: `## Terms of Service
 
 Welcome to rizwansaddique.site. By accessing or requesting services on this site, you agree to these terms.
@@ -162,11 +162,11 @@ export default function CustomPageDetail() {
 
     const computedTitle = page.seoTitle?.trim() 
       ? page.seoTitle.trim() 
-      : `${page.title} | Rizwan Saeed`;
+      : `${page.title} | Fiza Rafi`;
       
     const computedDesc = page.seoDescription?.trim()
       ? page.seoDescription.trim()
-      : `Read ${page.title} on Rizwan Saeed's digital marketing and Shopify development portfolio.`;
+      : `Read ${page.title} on Fiza Rafi's digital marketing and Shopify development portfolio.`;
 
     // 1. Update Document Title
     document.title = computedTitle;
@@ -358,7 +358,7 @@ export default function CustomPageDetail() {
               R
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-              Rizwan<span className="text-[#E59500]">.</span>
+              Fiza<span className="text-[#E59500]">.</span>
             </span>
           </div>
 
@@ -455,7 +455,7 @@ export default function CustomPageDetail() {
                   R
                 </div>
                 <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-                  Rizwan<span className="text-[#E59500]">.</span>
+                  Fiza<span className="text-[#E59500]">.</span>
                 </span>
               </div>
               <p className="text-xs text-[#6B6053] leading-relaxed max-w-xs">
@@ -465,12 +465,12 @@ export default function CustomPageDetail() {
 
             <div className="md:col-span-6 flex flex-col items-start md:items-end justify-between gap-4">
               <div className="flex items-center gap-3">
-                <a href="https://instagram.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
-                <a href="https://www.linkedin.com/in/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
-                <a href="https://x.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
-                <a href="https://github.com/Rizwansaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
+                <a href="https://instagram.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
+                <a href="https://www.linkedin.com/in/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
+                <a href="https://x.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
+                <a href="https://github.com/Fizasaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
               </div>
-              <p className="text-xs text-[#6B6053]">© 2026 Rizwan Saeed. All rights reserved.</p>
+              <p className="text-xs text-[#6B6053]">© 2026 Fiza Rafi. All rights reserved.</p>
             </div>
 
           </div>

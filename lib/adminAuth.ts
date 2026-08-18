@@ -17,7 +17,7 @@ let currentAdminPasswordHash: { hash: string; salt: string } | null = null;
 const otpStore = new Map<string, OtpRecord>();
 const rateLimitStore = new Map<string, RateLimitRecord>();
 
-const ADMIN_EMAIL = 'rizwansaeed610@gmail.com';
+const ADMIN_EMAIL = 'fizarafir@gmail.com';
 const INITIAL_DEFAULT_PASS = 'McSe2008@@@!@';
 
 // Hash password using crypto.scrypt

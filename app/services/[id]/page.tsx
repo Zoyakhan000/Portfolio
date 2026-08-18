@@ -254,7 +254,7 @@ export default function ServiceDetailPage() {
               R
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-              Rizwan<span className="text-[#E59500]">.</span>
+              Fiza<span className="text-[#E59500]">.</span>
             </span>
           </div>
 
@@ -411,7 +411,7 @@ export default function ServiceDetailPage() {
           <ArrowLeft className="w-3.5 h-3.5" /> Back to Services Directory
         </button>
         <p className="text-xs text-[#6B6053] font-mono">
-          © 2026 Rizwan Saeed. All rights reserved.
+          © 2026 Fiza Rafi. All rights reserved.
         </p>
       </footer>
 

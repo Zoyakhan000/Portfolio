@@ -142,7 +142,7 @@ export default function ProjectDirectoryPage() {
               R
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-              Rizwan<span className="text-[#E59500]">.</span>
+              Fiza<span className="text-[#E59500]">.</span>
             </span>
           </div>
 
@@ -329,7 +329,7 @@ export default function ProjectDirectoryPage() {
                   R
                 </div>
                 <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-                  Rizwan<span className="text-[#E59500]">.</span>
+                  Fiza<span className="text-[#E59500]">.</span>
                 </span>
               </div>
               <p className="text-xs text-[#6B6053] leading-relaxed max-w-xs">
@@ -339,12 +339,12 @@ export default function ProjectDirectoryPage() {
 
             <div className="md:col-span-6 flex flex-col items-start md:items-end justify-between gap-4">
               <div className="flex items-center gap-3">
-                <a href="https://instagram.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
-                <a href="https://www.linkedin.com/in/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
-                <a href="https://x.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
-                <a href="https://github.com/Rizwansaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
+                <a href="https://instagram.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
+                <a href="https://www.linkedin.com/in/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
+                <a href="https://x.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
+                <a href="https://github.com/Fizasaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
               </div>
-              <p className="text-xs text-[#6B6053]">© 2026 Rizwan Saeed. All rights reserved.</p>
+              <p className="text-xs text-[#6B6053]">© 2026 Fiza Rafi. All rights reserved.</p>
             </div>
 
           </div>

@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ description: fallbackDraft, source: 'algorithmic' });
     }
 
-    const prompt = `You are a world-class UX copywriter and digital strategist for Rizwan Saeed (UI/UX Designer & Growth Strategist). 
+    const prompt = `You are a world-class UX copywriter and digital strategist for Fiza Rafi (UI/UX Designer & Growth Strategist). 
 Auto-draft a concise, compelling 2 to 3 sentence SEO-friendly project summary for a portfolio showcase project with the following details:
 
 Project Title: "${title}"

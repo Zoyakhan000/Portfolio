@@ -167,7 +167,7 @@ export default function ProjectDetailPage() {
             const matchedDefault = DEFAULT_PROJECTS.find((d) => d.id === found.id || d.title === found.title);
             found.processContent = matchedDefault?.processContent || `## Growth Process & Methodology
 
-This project showcases Rizwan Saeed's signature strategic targeting, visual alignment, and conversion rate optimization.
+This project showcases Fiza Rafi's signature strategic targeting, visual alignment, and conversion rate optimization.
 
 ### Core Phases
 1. **Data Analytics Auditing**: Evaluated acquisition funnels, tracked pixel fires, and located user exit bottlenecks.
@@ -185,7 +185,7 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
           }
 
           setProject(found);
-          setSeoTitle(found.seoTitle || `${found.title} | Rizwan Saeed Showcase`);
+          setSeoTitle(found.seoTitle || `${found.title} | Fiza Rafi Showcase`);
           setSeoDescription(found.seoDescription || found.description || '');
           setSeoKeywords(found.seoKeywords || (found.tags ? found.tags.join(', ') : ''));
         }
@@ -227,7 +227,7 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
       setTimeout(() => setSeoSaved(false), 3000);
       
       if (typeof document !== 'undefined') {
-        document.title = seoTitle || `${updatedProject.title} | Rizwan Saeed`;
+        document.title = seoTitle || `${updatedProject.title} | Fiza Rafi`;
       }
     } catch (err) {
       console.error('Error saving SEO metadata:', err);
@@ -454,7 +454,7 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
               R
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-              Rizwan<span className="text-[#E59500]">.</span>
+              Fiza<span className="text-[#E59500]">.</span>
             </span>
           </div>
 
@@ -683,7 +683,7 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
                 type="text"
                 value={seoTitle}
                 onChange={(e) => setSeoTitle(e.target.value)}
-                placeholder="e.g. BakeryShop | Mobile App Case Study by Rizwan Saeed"
+                placeholder="e.g. BakeryShop | Mobile App Case Study by Fiza Rafi"
                 className="w-full bg-[#231F17] border border-[#2C2419] rounded-xl px-4 py-2.5 text-xs text-[#F9F7F2] focus:border-[#E59500] outline-none"
               />
             </div>
@@ -778,7 +778,7 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
                   R
                 </div>
                 <span className="font-sans font-bold text-xl tracking-tight text-[#F9F7F2]">
-                  Rizwan<span className="text-[#E59500]">.</span>
+                  Fiza<span className="text-[#E59500]">.</span>
                 </span>
               </div>
               <p className="text-xs text-[#6B6053] leading-relaxed max-w-xs">
@@ -788,12 +788,12 @@ This project showcases Rizwan Saeed's signature strategic targeting, visual alig
 
             <div className="md:col-span-6 flex flex-col items-start md:items-end justify-between gap-4">
               <div className="flex items-center gap-3">
-                <a href="https://instagram.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
-                <a href="https://www.linkedin.com/in/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
-                <a href="https://x.com/rizwansaeed" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
-                <a href="https://github.com/Rizwansaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
+                <a href="https://instagram.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Instagram className="w-4 h-4" /></a>
+                <a href="https://www.linkedin.com/in/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Linkedin className="w-4 h-4" /></a>
+                <a href="https://x.com/fizarafir" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Twitter className="w-4 h-4" /></a>
+                <a href="https://github.com/Fizasaeed61" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-[#231F17]/50 border border-[#2C2419] flex items-center justify-center text-[#6B6053] hover:text-[#E59500] hover:border-[#E59500] transition-colors"><Github className="w-4 h-4" /></a>
               </div>
-              <p className="text-xs text-[#6B6053]">© 2026 Rizwan Saeed. All rights reserved.</p>
+              <p className="text-xs text-[#6B6053]">© 2026 Fiza Rafi. All rights reserved.</p>
             </div>
 
           </div>

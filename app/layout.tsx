@@ -7,8 +7,8 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rizwansaddique.site
 
 export const metadata: Metadata = {
   title: {
-    default: 'Rizwan Saeed | Digital Marketing Manager & Shopify Developer — Dubai & Pakistan',
-    template: '%s | Rizwan Saeed'
+    default: 'Fiza Rafi | Digital Marketing Manager & Shopify Developer — Dubai & Pakistan',
+    template: '%s | Fiza Rafi'
   },
   description: 'Results-driven Digital Marketing Manager & Shopify Developer helping brands in UAE & Pakistan scale with Google Ads, Meta Ads, SEO & Shopify Development. 100+ projects, AED 1.2M+ revenue generated.',
   keywords: [
@@ -19,20 +19,20 @@ export const metadata: Metadata = {
     'SEO Dubai',
     'Shopify Development Pakistan',
   ],
-  authors: [{ name: 'Rizwan Saeed' }],
-  creator: 'Rizwan Saeed',
+  authors: [{ name: 'Fiza Rafi' }],
+  creator: 'Fiza Rafi',
   metadataBase: new URL(siteUrl),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: siteUrl,
-    title: 'Rizwan Saeed | Digital Marketing Manager & Shopify Developer',
+    title: 'Fiza Rafi | Digital Marketing Manager & Shopify Developer',
     description: 'Results-driven Digital Marketing Manager & Shopify Developer helping brands in UAE & Pakistan scale with Google Ads, Meta Ads, SEO & Shopify Development. 100+ projects, AED 1.2M+ revenue generated.',
-    siteName: 'Rizwan Saeed',
+    siteName: 'Fiza Rafi',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rizwan Saeed | Digital Marketing Manager & Shopify Developer',
+    title: 'Fiza Rafi | Digital Marketing Manager & Shopify Developer',
     description: 'Results-driven Digital Marketing Manager & Shopify Developer helping brands in UAE & Pakistan scale with Google Ads, Meta Ads, SEO & Shopify Development.',
   },
   robots: {
@@ -56,13 +56,13 @@ export default function RootLayout({
   const schemaOrgJSONLD = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Rizwan Saeed',
+    name: 'Fiza Rafi',
     url: siteUrl,
     description: 'Results-driven Digital Marketing Manager & Shopify Developer helping brands in UAE & Pakistan scale with Google Ads, Meta Ads, SEO & Shopify Development.',
     image: `${siteUrl}/og-image.jpg`,
     sameAs: [
-      'https://www.linkedin.com/in/rizwansaeed',
-      'https://github.com/Rizwansaeed61'
+      'https://www.linkedin.com/in/fizarafir',
+      'https://github.com/Fizasaeed61'
     ]
   };
 

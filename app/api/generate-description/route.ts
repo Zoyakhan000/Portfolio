@@ -25,7 +25,7 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { title = '', description = '', urlPath = '', typeLabel = '' } = body || {};
-    const fallbackDescription = description || `Read about ${title || 'this topic'} on Rizwan Saeed's professional digital portfolio.`;
+    const fallbackDescription = description || `Read about ${title || 'this topic'} on Fiza Rafi's professional digital portfolio.`;
 
     const client = getGeminiClient();
     if (!client) {
@@ -60,7 +60,7 @@ Output ONLY the meta description text. Do not include quote marks, character cou
   } catch (error: any) {
     console.error('Error generating description with Gemini:', error);
     const body = await req.clone().json().catch(() => ({}));
-    const fallback = body.description || `Read about ${body.title || 'this topic'} on Rizwan Saeed's professional digital portfolio.`;
+    const fallback = body.description || `Read about ${body.title || 'this topic'} on Fiza Rafi's professional digital portfolio.`;
     return NextResponse.json({ description: fallback, source: 'fallback' });
   }
 }

@@ -2145,7 +2145,7 @@ const DEFAULT_HERO_CONFIG: HeroConfig = {
   desc: "Results-driven Digital Marketing Manager and Shopify Developer with proven experience generating over AED 1.2 Million revenue through Google Ads, Meta Ads, SEO, Shopify Development, and Conversion Optimization.",
   ratingText: "98% Client Satisfaction (100+ Projects)",
   avatarUrl: "/Fiza.png",
-  bgImageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80",
+  bgImageUrl: "/Fiza.png",
   bgOpacity: 15
 };
 

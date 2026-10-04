@@ -2144,7 +2144,7 @@ const DEFAULT_HERO_CONFIG: HeroConfig = {
   title: "Scale Your Business With Proven Growth Strategies",
   desc: "Results-driven Digital Marketing Manager and Shopify Developer with proven experience generating over AED 1.2 Million revenue through Google Ads, Meta Ads, SEO, Shopify Development, and Conversion Optimization.",
   ratingText: "98% Client Satisfaction (100+ Projects)",
-  avatarUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800",
+  avatarUrl: "https://chatgpt.com/s/m_6ac2061620d481918ad17366d156e6530",
   bgImageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80",
   bgOpacity: 15
 };
